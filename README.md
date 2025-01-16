@@ -107,10 +107,12 @@ Set the following variables in your Lambda environment:
 
 ## Contributions
 Feel free to fork the repository and submit pull requests. Please ensure your code adheres to the guidelines provided in the CONTRIBUTING.md file.
-#License
+
+##### License
 This project is licensed under the MIT License.
 
 # Additional Notes
 •	Ensure all environment variables are securely stored and managed.
+
 •	Test thoroughly in a staging environment before deploying to production.
 
