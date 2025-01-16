@@ -42,15 +42,21 @@ Set the following variables in your Lambda environment:
 2.	Update the webhook_path in send_slack_message with your webhook URL.
 
 ## Slack Commands
-#se the following commands in Slack to manage your servers:
+See the following commands in Slack to manage your servers:
 ### Command	Description
 
 /command status <alias>	Fetch the current status of a server.
+
 /command start <alias>	Start a specific server.
+
 /command stop <alias>	Stop a specific server.
+
 /command list	List all servers and their statuses.
+
 /command list retain	List all retained servers.
+
 /command retain <alias>	Retain a server (prevent automated shutdown).
+
 /command drop <alias>	Remove a server from the retained list.
 
 ### Functionality
